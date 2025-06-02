@@ -3,7 +3,7 @@ const path = require("path");
 const csv = require("csv-parser");
 
 const getDepartures = async (req, res) => {
-  const stopId = req.params.stopId;
+  const stopId = req.params.stopId.padStart(4, "0");
   const stopTimes = [];
   const tripsMap = new Map();
   const routesMap = new Map();
@@ -20,11 +20,13 @@ const getDepartures = async (req, res) => {
           tripsMap.set(data.trip_id, {
             trip_headsign: data.trip_headsign,
             route_id: data.route_id,
+            service_id: data.service_id, // <-- ADD THIS LINE
           });
         })
         .on("end", resolve)
         .on("error", reject);
     });
+    console.log("Trips loaded:", tripsMap.size);
 
     // Load routes.txt data into memory
     await new Promise((resolve, reject) => {
@@ -40,31 +42,112 @@ const getDepartures = async (req, res) => {
         .on("end", resolve)
         .on("error", reject);
     });
+    console.log("Routes loaded:", routesMap.size);
+    let i = 0;
+    for (const [route_id, route] of routesMap) {
+      if (i++ < 10)
+        console.log("Sample route_short_name:", route.route_short_name);
+    }
 
-    // Load stop_times.txt data and filter for the specified stopId and desired routes
+    const validServiceIds = new Set();
+    const today = new Date();
+    const yyyyMMdd = today.toISOString().slice(0, 10).replace(/-/g, "");
+
+    // Parse calendar.txt
     await new Promise((resolve, reject) => {
       fs.createReadStream(
-        path.join(__dirname, "..", "data", "gtfs", "stop_times.txt")
+        path.join(__dirname, "..", "data", "gtfs", "calendar.txt")
       )
         .pipe(csv())
         .on("data", (data) => {
-          const trip = tripsMap.get(data.trip_id);
-          if (!trip) return;
-          const route = routesMap.get(trip.route_id);
+          // Check if today is within start/end and is a valid weekday
           if (
-            data.stop_id === stopId &&
-            route &&
-            desiredRoutes.has(route.route_short_name)
+            yyyyMMdd >= data.start_date &&
+            yyyyMMdd <= data.end_date &&
+            data[
+              today.toLocaleString("en-US", { weekday: "long" }).toLowerCase()
+            ] === "1"
           ) {
-            stopTimes.push({
-              route_short_name: route.route_short_name,
-              departure_time: data.departure_time,
-            });
+            validServiceIds.add(data.service_id);
           }
         })
         .on("end", resolve)
         .on("error", reject);
     });
+
+    // Parse calendar_dates.txt (overrides calendar.txt)
+    await new Promise((resolve, reject) => {
+      fs.createReadStream(
+        path.join(__dirname, "..", "data", "gtfs", "calendar_dates.txt")
+      )
+        .pipe(csv())
+        .on("data", (data) => {
+          if (data.date === yyyyMMdd) {
+            if (data.exception_type === "1") {
+              validServiceIds.add(data.service_id); // added for today
+            } else if (data.exception_type === "2") {
+              validServiceIds.delete(data.service_id); // removed for today
+            }
+          }
+        })
+        .on("end", resolve)
+        .on("error", (err) => {
+          // If file doesn't exist, ignore
+          if (err.code !== "ENOENT") reject(err);
+          else resolve();
+        });
+    });
+    console.log("Valid service IDs:", validServiceIds.size);
+
+    // Load stop_times.txt data and filter for the specified stopId and desired routes
+    await new Promise((resolve, reject) => {
+      let count = 0;
+      fs.createReadStream(
+        path.join(__dirname, "..", "data", "gtfs", "stop_times.txt")
+      )
+        .pipe(csv())
+        .on("data", (data) => {
+          if (count < 20) {
+            console.log("Sample stop_id:", data.stop_id);
+            count++;
+          }
+          const trip = tripsMap.get(data.trip_id);
+          if (!trip) return;
+          const route = routesMap.get(trip.route_id);
+
+          // DEBUG: Log service_id validity for this stop/route
+          if (
+            data.stop_id === stopId &&
+            route &&
+            desiredRoutes.has(route.route_short_name)
+          ) {
+            console.log(
+              `Trip ${data.trip_id} uses service_id ${
+                trip.service_id
+              } (valid: ${validServiceIds.has(trip.service_id)})`
+            );
+          }
+
+          // Main filter
+          if (
+            data.stop_id === stopId &&
+            route &&
+            desiredRoutes.has(route.route_short_name) &&
+            validServiceIds.has(trip.service_id)
+          ) {
+            stopTimes.push({
+              route_short_name: route.route_short_name,
+              departure_time: data.departure_time,
+            });
+            console.log(
+              `Included: ${route.route_short_name} at ${data.departure_time} (trip: ${data.trip_id})`
+            );
+          }
+        })
+        .on("end", resolve)
+        .on("error", reject);
+    });
+    console.log("Stop times found:", stopTimes.length);
 
     // Find the next departure for each line
     const now = new Date();
