@@ -1,0 +1,1046 @@
+[
+  {
+    "route_short_name": "12",
+    "departure_time": "05:23:53"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "06:24:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "06:56:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "07:26:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "07:56:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "08:26:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "08:56:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "09:26:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "09:56:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "10:26:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "10:56:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "11:26:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "11:57:45"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "12:28:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "12:58:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "13:28:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "13:58:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "14:28:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "15:03:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "15:33:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "16:03:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "16:33:28"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "17:03:36"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "17:36:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "18:11:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "18:41:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "19:11:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "19:40:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "20:10:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "20:40:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "21:10:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "21:40:10"
+  },
+  {
+    "route_short_name": "12",
+    "departure_time": "22:10:10"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "17:45:10"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "18:14:40"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "05:09:31"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "05:39:31"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "14:14:36"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "14:44:36"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "15:15:06"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "15:47:06"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "16:17:06"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "16:46:36"
+  },
+  {
+    "route_short_name": "31",
+    "departure_time": "17:15:36"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "05:24:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "06:25:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "07:56:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "08:57:13"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "09:26:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "09:56:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "10:26:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "10:56:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "11:26:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "11:57:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "12:27:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "12:57:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "13:27:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "13:57:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "14:27:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "14:57:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "15:27:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "15:57:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "16:27:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "16:57:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "17:27:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "17:57:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "18:26:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "18:53:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "19:23:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "19:53:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "20:23:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "20:53:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "21:23:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "21:53:29"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "22:21:07"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "07:26:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "08:26:51"
+  },
+  {
+    "route_short_name": "13",
+    "departure_time": "06:56:51"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "06:41:01"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "07:11:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "07:39:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "07:54:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "08:09:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "08:54:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "08:39:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "08:24:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "09:10:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "09:25:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "09:40:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "10:10:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "10:25:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "10:55:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "11:10:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "11:25:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "11:55:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "12:10:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "12:25:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "12:55:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "13:10:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "13:25:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "13:55:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "06:11:01"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "07:24:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "09:55:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "10:40:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "11:40:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "12:40:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "13:40:36"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "14:26:06"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "14:56:06"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "15:27:06"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "15:58:06"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "16:28:06"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "16:58:06"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "17:27:58"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "17:57:40"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "18:25:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "18:40:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "18:55:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "19:10:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "19:25:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "19:40:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "19:55:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "20:10:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "20:25:10"
+  },
+  {
+    "route_short_name": "32",
+    "departure_time": "20:40:10"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "05:18:16"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "06:18:16"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "07:18:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "07:49:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "08:19:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "08:49:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "09:19:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "09:49:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "10:19:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "10:49:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "11:19:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "11:49:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "12:19:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "12:49:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "13:19:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "13:50:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "14:21:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "14:51:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "15:21:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "15:51:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "16:21:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "16:50:54"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "17:20:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "17:50:41"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "18:18:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "18:48:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "19:18:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "19:48:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "20:18:29"
+  },
+  {
+    "route_short_name": "11",
+    "departure_time": "21:18:29"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "05:08:08"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "06:09:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "07:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "07:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "08:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "08:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "09:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "09:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "10:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "10:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "11:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "11:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "12:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "12:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "13:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "13:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "14:10:54"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "14:40:54"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "15:10:54"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "15:40:54"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "16:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "16:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "17:10:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "17:40:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "18:09:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "18:38:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "19:07:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "19:37:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "20:07:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "20:37:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "21:07:31"
+  },
+  {
+    "route_short_name": "26",
+    "departure_time": "22:07:08"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "04:17:53"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "04:47:53"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "05:17:53"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "05:47:53"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "06:22:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "06:52:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "07:22:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "07:37:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "07:52:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "08:07:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "08:22:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "08:37:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "08:52:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "09:07:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "09:22:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "09:37:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "09:52:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "10:07:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "10:22:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "10:37:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "10:52:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "11:07:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "11:22:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "11:37:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "11:52:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "12:07:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "12:22:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "12:37:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "12:52:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "13:07:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "13:22:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "13:37:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "13:52:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "14:08:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "14:24:28"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "14:38:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "14:53:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "15:08:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "15:23:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "15:38:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "15:53:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "16:08:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "16:23:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "16:38:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "16:53:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "17:08:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "17:23:45"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "17:38:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "17:53:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "23:16:53"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "23:46:53"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "24:16:53"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "24:46:53"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "22:57:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "18:07:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "18:21:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "18:35:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "18:50:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "19:05:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "19:20:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "19:35:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "20:49:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "19:50:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "20:05:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "20:20:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "20:34:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "21:04:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "21:19:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "21:34:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "21:49:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "22:15:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "22:37:10"
+  },
+  {
+    "route_short_name": "30",
+    "departure_time": "22:03:10"
+  }
+]
