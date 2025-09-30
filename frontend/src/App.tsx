@@ -4,6 +4,7 @@ import StopsList from "./components/StopsList";
 import Departures from "./components/Departures";
 import RealtimeDepartures from "./components/RealtimeDepartures";
 import CentrumDepartures from "./components/CentrumDepartures";
+import CombinedDepartures from "./components/CombinedDepartures";
 
 function App() {
   const [message, setMessage] = useState("");
@@ -27,6 +28,8 @@ function App() {
       <RealtimeDepartures />
       <p> ---------</p>
       <CentrumDepartures />
+      <p> ---------</p>
+      <CombinedDepartures />
     </div>
   );
 }
